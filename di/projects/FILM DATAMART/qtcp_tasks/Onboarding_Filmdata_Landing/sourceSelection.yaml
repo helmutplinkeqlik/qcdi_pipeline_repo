@@ -1,0 +1,23 @@
+sourceConnection: '{{task.onboarding_filmdata_landing-cnvg.sourceConnection}}'
+explicitlySelected:
+  - name: actor
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: film
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: film_actor
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: film_category
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: film_text
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: language
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE
+  - name: category
+    schema: '{{task.onboarding_filmdata_landing-cnvg:null$_$sakila.schema}}'
+    type: TABLE

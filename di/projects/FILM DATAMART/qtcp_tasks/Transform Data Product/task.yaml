@@ -1,0 +1,14 @@
+properties:
+  name: Transform Data Product
+  id: transform_data_product-wivg
+  type: TRANSFORM
+settings:
+  artifactsLocation:
+    internalSchema: '{{task.transform_data_product-wivg.internalSchema}}'
+    taskSchema: '{{task.transform_data_product-wivg.taskSchema}}'
+    databaseName: '{{task.transform_data_product-wivg.databaseName}}'
+  taskRuntime:
+    warehouseSelection:
+      warehouseName: '{{task.transform_data_product-wivg.warehouseName}}'
+  catalogIntegration:
+    publishDatasets: true

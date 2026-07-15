@@ -1,0 +1,12 @@
+properties:
+  name: Onboarding_Filmdata_Storage
+  id: onboarding_filmdata_storage-cnvh
+  type: STORAGE
+settings:
+  artifactsLocation:
+    internalSchema: '{{task.onboarding_filmdata_storage-cnvh.internalSchema}}'
+    taskSchema: '{{task.onboarding_filmdata_storage-cnvh.taskSchema}}'
+    databaseName: '{{task.onboarding_filmdata_storage-cnvh.databaseName}}'
+  taskRuntime:
+    warehouseSelection:
+      warehouseName: '{{task.onboarding_filmdata_storage-cnvh.warehouseName}}'

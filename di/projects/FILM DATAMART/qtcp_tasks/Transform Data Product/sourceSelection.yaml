@@ -1,0 +1,22 @@
+explicitlySelected:
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: film
+    sourceTableId: film-cnvk
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: film_category
+    sourceTableId: film_category-cnvm
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: film_text
+    sourceTableId: film_text-cnvn
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: language
+    sourceTableId: language-cnv_
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: category
+    sourceTableId: category-cnwa
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: actor
+    sourceTableId: actor-cnvj
+  - sourceTask: onboarding_filmdata_storage-cnvh
+    name: film_actor
+    sourceTableId: film_actor-cnvl

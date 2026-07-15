@@ -1,0 +1,8 @@
+properties:
+  id: actor-rarr
+  name: actor
+  inputDatasets:
+    - datasetId: actor-cnvj
+      taskId: onboarding_filmdata_storage-cnvh
+transformations:
+  newTableName: ACTORS

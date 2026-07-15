@@ -1,0 +1,6 @@
+properties:
+  id: category-cnwa
+  name: category
+  inputDatasets:
+    - datasetId: category
+      taskId: onboarding_filmdata_landing-cnvg
