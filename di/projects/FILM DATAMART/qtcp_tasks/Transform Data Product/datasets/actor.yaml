@@ -3,6 +3,9 @@ properties:
   name: actor
   inputDatasets:
     - datasetId: actor-cnvj
+      name: actor
       taskId: onboarding_filmdata_storage-cnvh
+  tableDef:
+    columns: []
 transformations:
   newTableName: ACTORS

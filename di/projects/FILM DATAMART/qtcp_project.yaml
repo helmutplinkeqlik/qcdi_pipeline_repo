@@ -3,7 +3,7 @@ properties:
   name: '{{projectName}}'
   space: 'ref{project.current.spaceId}'
   type: DATA_PIPELINE
-  description: Replicate film data to an analytics datastore
+  description: Replicate film data to an analytics datastore (edited)
   platformType: SNOWFLAKE
   platformConnection: '{{platformConnection}}'
   cloudStagingConnection: '{{cloudStagingConnection}}'
