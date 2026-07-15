@@ -4,3 +4,9 @@ properties:
   inputDatasets:
     - datasetId: actor
       taskId: onboarding_filmdata_landing-cnvg
+transformations:
+  columnTransformations:
+    - action: KEEP
+      columnName: first_name
+      newColumnName: first_name
+      nullable: false
