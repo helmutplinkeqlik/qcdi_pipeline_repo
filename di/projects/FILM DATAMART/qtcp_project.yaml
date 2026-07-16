@@ -13,6 +13,8 @@ properties:
     Erscheinungsjahr, Mietkonditionen (Dauer, Rate, Ersatzkosten), Länge,
     Altersfreigabe, Sonderausstattung sowie zugehörige Kategorie und Sprache
     - als Grundlage für Filmkatalog- und Vermietungsanalysen.
+
+    Hinweis: Der Text dieser Beschreibung wurde von Claude (KI) erstellt.
   platformType: SNOWFLAKE
   platformConnection: '{{platformConnection}}'
   cloudStagingConnection: '{{cloudStagingConnection}}'
