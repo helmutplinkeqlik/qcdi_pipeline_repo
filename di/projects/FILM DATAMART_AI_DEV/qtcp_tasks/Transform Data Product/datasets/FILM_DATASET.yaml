@@ -1,0 +1,20 @@
+properties:
+  id: transform_film-60no
+  name: FILM_DATASET
+  inputDatasets:
+    - datasetId: language-cnv_
+      taskId: onboarding_filmdata_storage-cnvh
+    - datasetId: film_text-cnvn
+      taskId: onboarding_filmdata_storage-cnvh
+    - datasetId: category-cnwa
+      taskId: onboarding_filmdata_storage-cnvh
+    - datasetId: film_category-cnvm
+      taskId: onboarding_filmdata_storage-cnvh
+    - datasetId: film-cnvk
+      taskId: onboarding_filmdata_storage-cnvh
+  datasetAttributes:
+    materialized: ON
+  dataflowDatasetSettings:
+    dataflowId: '{{id(dataflow, Transform Film)}}'
+    targetId: '7ed0e292-e911-467d-8b74-74356c988ee0'
+    dataflowTargetState: VALID

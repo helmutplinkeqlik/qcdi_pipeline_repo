@@ -1,0 +1,11 @@
+properties:
+  name: Onboarding_Filmdata_Landing
+  id: onboarding_filmdata_landing-cnvg
+  type: LANDING
+settings:
+  landingDwSettings:
+    landingArtifactsLocation:
+      dataAssetSchema: '{{task.onboarding_filmdata_landing-cnvg.taskSchema}}'
+      database: '{{task.onboarding_filmdata_landing-cnvg.databaseName}}'
+  landingAppRuntime:
+    sourceCdcFetchIntervalMinutes: 60

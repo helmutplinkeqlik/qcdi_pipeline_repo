@@ -1,0 +1,14 @@
+properties:
+  exportVersion: '1.0'
+  name: '{{projectName}}'
+  space: 'ref{project.current.spaceId}'
+  type: DATA_PIPELINE
+  description: 'Data-Pipeline auf Basis der Sakila-Beispieldatenbank zur Erstellung eines analysebereiten Film-Datamarts. Die Filmquelltabellen (film, film_text, film_category, category, language, actor, film_actor) werden über die Stufen Landing und Storage nach Snowflake übernommen und in der Transform-Stufe per Inner-Joins zu einem denormalisierten FILM_DATASET zusammengeführt. Dieses enthält je Film Titel, Beschreibung, Erscheinungsjahr, Mietkonditionen (Dauer, Rate, Ersatzkosten), Länge, Altersfreigabe, Sonderausstattung sowie zugehörige Kategorie und Sprache - als Grundlage für Filmkatalog- und Vermietungsanalysen.
+
+    Hinweis: Der Text dieser Beschreibung wurde von Claude (KI) erstellt.'
+  platformType: SNOWFLAKE
+  platformConnection: '{{platformConnection}}'
+  cloudStagingConnection: '{{cloudStagingConnection}}'
+settings:
+  artifactsNaming:
+    prefixSchema: '{{project.current.prefixSchema}}'
