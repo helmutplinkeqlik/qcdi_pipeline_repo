@@ -1,0 +1,2 @@
+This is a Qlik Talend Cloud Pipeline (QTCP) project. Before any project advice or YAML edits, I MUST read the source of truth first:
+https://raw.githubusercontent.com/qlik-oss/schemas/refs/heads/main/qtcp/ai-instructions.md
