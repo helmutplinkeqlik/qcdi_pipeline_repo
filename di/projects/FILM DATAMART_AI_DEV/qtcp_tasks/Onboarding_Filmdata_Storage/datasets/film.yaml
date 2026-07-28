@@ -11,6 +11,8 @@ transformations:
       columnName: rental_revenue
       newDataType:
         type: NUMERIC
+        precision: 10
+        scale: 2
       expression:
         expressionStatement: ${rental_rate} * ${rental_duration}
         alias:
