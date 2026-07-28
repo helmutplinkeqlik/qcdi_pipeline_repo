@@ -8,7 +8,7 @@ properties:
 transformations:
   columnTransformations:
     - action: ADD
-      columnName: rental_revenue
+      columnName: RENTAL_REVENUE
       newDataType:
         type: NUMERIC
         precision: 10
