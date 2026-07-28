@@ -1,0 +1,7 @@
+rules:
+  - name: Uppercase_Column_Names
+    actionType: RENAME_COLUMN
+    scope:
+      whereTableName: '%'
+    action:
+      renameType: TO_UPPER
