@@ -4,3 +4,17 @@ properties:
   inputDatasets:
     - datasetId: film
       taskId: onboarding_filmdata_landing-cnvg
+
+transformations:
+  columnTransformations:
+    - action: ADD
+      columnName: rental_revenue
+      newDataType:
+        type: NUMERIC
+      expression:
+        expressionStatement: ${rental_rate} * ${rental_duration}
+        alias:
+          - name: rental_rate
+            value: rental_rate
+          - name: rental_duration
+            value: rental_duration
