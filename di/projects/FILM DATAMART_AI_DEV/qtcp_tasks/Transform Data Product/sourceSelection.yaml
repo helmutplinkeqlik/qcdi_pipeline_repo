@@ -15,7 +15,7 @@ explicitlySelected:
     name: category
     sourceTableId: category-cnwa
   - sourceTask: onboarding_filmdata_storage-cnvh
-    name: actor
+    name: ACTOR_test
     sourceTableId: actor-cnvj
   - sourceTask: onboarding_filmdata_storage-cnvh
     name: film_actor

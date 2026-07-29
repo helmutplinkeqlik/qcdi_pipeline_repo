@@ -5,9 +5,9 @@ properties:
     - datasetId: actor
       taskId: onboarding_filmdata_landing-cnvg
 transformations:
+  newTableName: ACTOR_test
   columnTransformations:
     - action: KEEP
       columnName: first_name
       newColumnName: first_name
       nullable: false
-  newTableName: ACTOR_test

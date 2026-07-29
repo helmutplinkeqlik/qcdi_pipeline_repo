@@ -4,13 +4,13 @@ properties:
   inputDatasets:
     - datasetId: film
       taskId: onboarding_filmdata_landing-cnvg
-
 transformations:
   columnTransformations:
     - action: ADD
       columnName: RENTAL_REVENUE
       newDataType:
         type: NUMERIC
+        length: 0
         precision: 10
         scale: 2
       expression:
