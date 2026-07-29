@@ -10,3 +10,4 @@ transformations:
       columnName: first_name
       newColumnName: first_name
       nullable: false
+  newTableName: ACTOR_test
