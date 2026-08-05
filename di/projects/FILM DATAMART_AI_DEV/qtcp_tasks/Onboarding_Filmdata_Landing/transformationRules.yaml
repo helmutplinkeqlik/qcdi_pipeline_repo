@@ -1,0 +1,7 @@
+rules:
+  - name: Uppercase_Table_Names_HP
+    actionType: RENAME_TABLE
+    scope:
+      whereTableName: '%'
+    action:
+      renameType: TO_UPPER
