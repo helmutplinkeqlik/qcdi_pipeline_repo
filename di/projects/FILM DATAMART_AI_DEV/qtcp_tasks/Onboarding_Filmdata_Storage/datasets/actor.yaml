@@ -24,15 +24,3 @@ transformations:
             value: first_name
           - name: last_name
             value: last_name
-    - action: ADD
-      columnName: full_name
-      newDataType:
-        type: STRING
-        length: 50
-        precision: 0
-        scale: 0
-        originalTypeFull: ''
-      expression:
-        expressionStatement: ''
-        alias: []
-      addedColumnId: '3a2d1aa5-04a2-400b-8d35-64b1e34db7b2'
