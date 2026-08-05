@@ -1,5 +1,0 @@
-rules:
-  - actionType: RENAME_COLUMN
-    action:
-      renameType: TO_UPPER
-    name: Uppercase_Column_Names
