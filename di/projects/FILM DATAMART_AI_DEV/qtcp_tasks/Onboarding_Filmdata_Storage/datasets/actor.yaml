@@ -10,17 +10,3 @@ transformations:
       columnName: first_name
       newColumnName: first_name
       nullable: false
-    - action: DROP
-      columnName: full_name
-      newDataType:
-        type: STRING
-        length: 0
-        precision: 0
-        scale: 0
-      expression:
-        expressionStatement: CONCAT(${first_name}, ' ', ${last_name})
-        alias:
-          - name: first_name
-            value: first_name
-          - name: last_name
-            value: last_name
