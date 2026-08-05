@@ -11,7 +11,7 @@ transformations:
       newColumnName: first_name
       nullable: false
     - action: DROP
-      columnName: full_name
+      columnName: full_name_
       newDataType:
         type: STRING
         length: 0
